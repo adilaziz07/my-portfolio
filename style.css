@@ -1,0 +1,599 @@
+@font-face {
+
+    font-family: light;
+    src: url(./fonts/cocogoose-pro/Cocogoose\ Pro\ Thin\ Trial.ttf);
+}
+
+@font-face {
+    font-family: normal;
+    src: url(./fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: simple;
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+body{
+    margin: 0px;
+}
+.main-con{
+    height: auto;
+    width: auto;
+}
+
+.logo-name {
+    display: flex;
+    position: relative;
+    right: -40px;
+    font-family: normal;
+}
+
+.logo-name i {
+    color: yellow;
+}
+
+.navbar {
+    display: flex;
+    height: 30px;
+    background-color: #232337;
+    opacity: 90%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.ex-option {
+    display: flex;
+    font-family: light;
+    font-size: 10px;
+    color: lightgrey;
+}
+
+.ex-option h3 {
+    margin-right: 20px;
+}
+
+.nav-icons {
+    position: relative;
+    right: 40px;
+}
+
+.nav-icons i {
+    margin-left: 20px;
+}
+
+.center-contanier {
+    background-color: #232237;
+    opacity: 90%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.box-1 {
+    line-height: 0px;
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+}
+
+.box-1 .heading {
+    font-size: 2rem;
+    font-family: light;
+    color: lightslategray;
+
+}
+
+.box-1 .name-heading {
+    display: flex;
+    font-size: 2rem;
+    width: 300px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: normal;
+    line-height: -10px;
+
+}
+
+.name-heading .h1 {
+    margin-left: 20px;
+}
+
+.box-1 .name-para {
+    width: 200px;
+    line-height: 20px;
+    color: lightgray;
+    font-family: normal;
+}
+.box-3 h2{
+    font-family: normal;
+}
+
+.box-2 .circle {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+    background-color: #191928;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.box-2 .men-png {
+    height: 450px;
+    width: 350px;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+}
+
+.box-3 {
+    position: relative;
+    right: -50px;
+    bottom: 20px;
+}
+
+.box-3 h1 {
+    font-size: 1.5rem;
+    font-family: normal;
+    color: lightslategrey;
+}
+
+.box-3 .para {
+    width: 200px;
+    color: white;
+    font-family: normal;
+}
+
+.box-3 i {
+    position: relative;
+    top: 3px;
+}
+
+.box-3 h2 {
+    color: yellow;
+}
+
+.box-3 .icons {
+    display: flex;
+    position: relative;
+    left: 0px;
+    justify-content: space-around;
+}
+
+.icons i {
+    background-color: #4e4e79;
+    border-radius: 90px;
+    height: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 20px;
+    color: yellow;
+}
+
+.center-box {
+    background-color: #313144;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 200px;
+    bottom: -20px;
+    border-radius: 10px;
+}
+
+.center-box img {
+    height: 50px;
+    width: 100px;
+    background-color: #292936;
+    border-radius: 5px;
+
+}
+
+.center-box .meta {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #292936;
+}
+
+.center-box .meta-img {
+    height: 30px;
+    width: 80px;
+    padding: 10px 0 0 10px;
+}
+
+.About {
+    background-color: #232338;
+    height: 140vh;
+    position: relative;
+    bottom: 0px;
+    z-index: -1;
+    display: flex;
+}
+
+.WCID {
+    position: relative;
+    top: 100px;
+    width: 400px;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+
+.WCID-heading {
+    font-size: 1.3rem;
+    color: white;
+    font-family: simple;
+}
+
+.WCID-para {
+    width: 300px;
+    color: lightslategray;
+    font-family: normal;
+}
+
+.awards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.awards .pro-item {
+    line-height: 1px;
+}
+
+.awards .pro-heading {
+    font-size: 2.5rem;
+    color: yellow;
+    font-family: simple;
+}
+
+.awards .pro-para {
+    color: lightslategray;
+    font-family: normal;
+}
+
+.WCID-2 {
+    position: relative;
+    left: 290px;
+    top: 90px;
+    font-family: normal;
+}
+
+.WCID-item {
+    display: flex;
+    margin-top: 50px;
+}
+
+.WCID-item img {
+    height: 100px;
+    width: 100px;
+}
+
+.WCID-2 hr {
+    position: relative;
+    top: 30px;
+    width: 450px;
+}
+
+.WCID-extra {
+    margin-left: 20px;
+    line-height: 10px;
+
+}
+
+.WCID-extra h2 {
+    color: white;
+}
+
+.WCID-extra p {
+    color: lightslategray;
+}
+
+.M-F-B {
+    position: relative;
+    bottom: 0px;
+    background-color: #313144;
+    display: flex;
+    height: 170px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 0 0 30px;
+}
+
+.footer-box {
+    background-color: #313144;
+    height: 250px;
+    width: 300px;
+    position: relative;
+    bottom: 160px;
+    padding-top: 10px;
+    border-top-right-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    font-family: normal;
+
+
+}
+
+.footer-box p {
+    overflow: hidden;
+    padding: 20px;
+    color: lightslategray;
+}
+
+.footer-box h2 {
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+}
+
+.footer-box h4 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    color: white;
+}
+
+.footer-box h3 {
+    margin-left: 30px;
+    color: yellow;
+
+
+}
+
+.f-b-development {
+    display: flex;
+}
+
+.mob-dev-b p {
+    position: relative;
+    bottom: 40px;
+}
+
+.mob-dev-b h4 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    position: relative;
+    top: -20px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+    .logo-name {
+        display: flex;
+        position: relative;
+        right: -40px;
+        font-family: normal;
+    }
+
+    .logo-name i {
+        color: yellow;
+    }
+
+    .navbar {
+        display: flex;
+        height: 30px;
+        background-color: #464574;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+    }
+
+    .ex-option {
+        display: flex;
+        font-family: light;
+        font-size: 10px;
+        color: lightgrey;
+    }
+
+    .ex-option h3 {
+        margin-right: 20px;
+    }
+
+    .nav-icons {
+        position: relative;
+        right: 40px;
+    }
+
+    .nav-icons i {
+        margin-left: 20px;
+    }
+
+    .center-contanier {
+        background-color: #232338;
+        opacity: 90%;
+        height: 90vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .box-1 {
+        line-height: 0px;
+        position: relative;
+        bottom: 10px;
+        left: 30px;
+    }
+
+    .box-1 .heading {
+        font-size: 2rem;
+        font-family: light;
+        color: lightslategray;
+
+    }
+
+    .box-1 .name-heading {
+        display: flex;
+        font-size: 2rem;
+        width: 300px;
+        color: white;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        font-family: normal;
+        line-height: -10px;
+
+    }
+
+    .name-heading .h1 {
+        margin-left: 20px;
+    }
+
+    .box-1 .name-para {
+        width: 200px;
+        line-height: 20px;
+        color: lightgray;
+        font-family: normal;
+    }
+
+    .box-2 .circle {
+        height: 400px;
+        width: 400px;
+        background-color: #2a2a4d;
+        border-radius: 100%;
+    }
+
+    .box-2 .men-png {
+        height: 450px;
+        width: 350px;
+        position: relative;
+        left: 30px;
+        bottom: 20px;
+    }
+
+    .box-3 {
+        position: relative;
+        right: 50px;
+        bottom: 20px;
+    }
+
+    .box-3 h1 {
+        font-size: 1.5rem;
+        font-family: normal;
+        color: lightslategrey;
+    }
+
+    .box-3 .para {
+        width: 200px;
+        color: white;
+        font-family: normal;
+    }
+
+    .box-3 i {
+        position: relative;
+        top: 3px;
+    }
+
+    .box-3 h2 {
+        color: yellow;
+    }
+
+    .box-3 .icons {
+        display: flex;
+        position: relative;
+        left: 0px;
+        justify-content: space-around;
+    }
+
+    .icons i {
+        background-color: #4e4e79;
+        border-radius: 90px;
+        height: 20px;
+        padding-left: 5px;
+        padding-top: 5px;
+        width: 20px;
+        color: yellow;
+    }
+
+    .center-box {
+        background-color: #313144;
+        display: flex;
+        width: 800px;
+        height: 100px;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        left: 100px;
+        bottom: 50px;
+        border-radius: 10px;
+    }
+
+    .center-box img {
+        height: 50px;
+        width: 100px;
+        background-color: #292936;
+        border-radius: 5px;
+
+    }
+
+    .center-box .meta {
+        height: 50px;
+        width: 100px;
+        background-color: #292936;
+    }
+
+    .center-box .meta-img {
+        height: 30px;
+        width: 80px;
+        padding: 10px 0 0 10px;
+    }
+
+    .About {
+        background-color: #2a2a4d;
+        height: 120vh;
+        position: relative;
+        bottom: 130px;
+        z-index: -1;
+    }
+
+    .WCID {
+        position: relative;
+        top: 100px;
+        width: 400px;
+        align-items: center;
+        position: relative;
+        left: 30px;
+    }
+
+    .WCID-heading {
+        font-size: 1.3rem;
+        color: white;
+        font-family: simple;
+    }
+
+    .WCID-para {
+        width: 300px;
+        color: lightslategray;
+        font-family: normal;
+    }
+
+    .awards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .awards .pro-item {
+        line-height: 1px;
+    }
+
+    .awards .pro-heading {
+        font-size: 2.5rem;
+        color: yellow;
+        font-family: simple;
+    }
+
+    .awards .pro-para {
+        color: lightslategray;
+        font-family: normal;
+    }
+}
